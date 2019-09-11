@@ -1,0 +1,252 @@
+.roboto-bold {
+    font-family: "Roboto" !important;
+    font-weight: 600 !important;
+}
+.roboto-semibold {
+    font-family: "Roboto" !important;
+    font-weight: 500 !important;
+}
+.roboto-regular {
+    font-family: "Roboto" !important;
+    font-weight: 400 !important;
+}
+.roboto-light {
+    font-family: "Roboto" !important;
+    font-weight: 300 !important;
+}
+body {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+.education-headline {
+    font-family: "Roboto"!important;
+    font-weight: 600!important;
+    color: #202020;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 20px;
+}
+.header-doctor {
+    background: url(./assets/img/doctor_background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    //height: 615px !important; 
+    position: relative;
+    margin-top: 65px; 
+
+    .flex-row {
+        align-items: center;
+    }
+    .doctor-hero-image {
+        width: 100%;
+        img {
+            display: block;
+            margin: 0;
+            padding: 0;
+            max-width: 100%;
+        }
+    }
+    .header-doctor-text {
+        text-align: center;
+        h2 {
+            color: white;
+            font-size: 52px;
+            margin: 0;
+            padding: 0;
+        }
+        p {
+            font-size: 24px;
+            color: white;
+            margin: 0;
+            padding: 0;
+            padding-top: 50px;
+        }
+    }
+}
+
+#doctor-hero {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    img {
+      display: block;
+      margin: 0;
+      padding: 0;
+    }
+}   
+
+.flex-row {
+    display: flex;
+}
+.flex-wrap {
+    flex-wrap: wrap;
+}
+.mt-50 {
+    margin-top: 50px !important;
+}
+.mb-50 {
+    margin-bottom: 50px !important;
+}
+.mt-40 {
+    margin-top: 40px !important;
+}
+.mb-40 {
+    margin-bottom: 40px !important;
+}
+.mt-30 {
+    margin-top: 30px !important;
+}
+.mb-30 {
+    margin-bottom: 30px !important;
+}
+.mt-20 {
+    margin-top: 20px !important;
+}
+.mb-20 {
+    margin-bottom: 20px !important;
+}
+.mt-0 {
+    margin-top: 0px !important;
+}
+.mb-0 {
+    margin-bottom: 0px !important;
+}
+.pb-50 {
+    padding-bottom: 50px !important;
+}
+.pb-40 {
+    padding-bottom: 40px !important;
+}
+.pt-70 {
+    padding-top: 70px !important;
+}
+.pb-70 {
+    padding-bottom: 70px !important;
+}
+
+#doctor-page {
+    #patient-part {
+        width: 100%;
+        background: white;
+        padding-top: 90px;
+        .flex-row {
+            align-items: center;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #505050;
+        }
+        img {
+            display: block;
+            margin: 0;
+            padding: 0;
+            max-width: 100%;
+        }
+    }
+    #journal-part {
+        background-color: #f8f8f8;
+        //background-color: #efefef;
+        padding: 70px 0;
+        h3 {
+            color: #505050;
+            font-size: 20px;
+        }
+        .journal-article {
+            border: 1px solid #b7b7b7;
+            box-sizing: border-box;
+            background: white;
+            height: 100%;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            h4 {
+                font-family: "Roboto" !important;
+                font-weight: 600 !important;
+                color: #202020;
+                font-size: 24px;
+                margin: 0;
+                padding :0;
+                padding-bottom: 20px;
+            }
+            &.small {
+                h4 {
+                    font-size: 18px;
+                    line-height: 1.4;
+                }
+            }
+            p {
+                font-family: "Roboto" !important;
+                font-weight: 400 !important;
+                margin: 0;
+                padding: 0;
+                font-size: 16px;
+                color: #505050;
+                flex: 1;
+            }
+            a {
+                font-family: "Roboto" !important;
+                font-weight: 600 !important;
+                margin: 0;
+                padding: 0;
+                padding-top: 20px;
+                font-size: 16px;
+                color: #155DC5;
+            }
+        }
+        .journal-video {
+            width: 100%;
+            iframe {
+                display: block;
+                width: 100%;
+                margin: 0;
+                padding: 0;
+            }
+        }
+    }
+    #doctor-footer {
+        background: url(./assets/img/doctor_bg1.jpg) no-repeat;
+        background-size: cover;
+        background-position: top center;
+        background-repeat: no-repeat;
+        
+        .container {
+            padding-left: 0;
+            padding-right: 0;
+            &:after {
+                display: block;
+                content: '';
+                clear: both;
+            }
+        }
+        
+        .flex-row {
+            .fake1 {
+                flex: 1;
+            }
+            .fake2 {
+                flex: 1;
+                background: rgba(21, 93, 197, 0.8);
+            }
+        }
+
+        #doctor-footer-text {
+            width: 444px;
+            float: right;
+            background: rgba(21, 93, 197, 0.8);
+            box-sizing: border-box;
+            padding: 50px;
+
+            h3 {
+                font-size: 32px;
+                color: white;
+            }
+            p {
+                font-size: 16px;
+                color: white;
+            }
+        }
+    }
+}

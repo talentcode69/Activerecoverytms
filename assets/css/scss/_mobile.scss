@@ -1,0 +1,162 @@
+@media all and (max-width: 1199px) {
+    .header-location {
+        .header-location-text {
+            padding: 100px 0 200px 0;
+        }
+    }
+    .header-doctor {
+        .header-doctor-text {
+            h2 {
+                font-size: 32px;
+            }
+            p {
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+@media all and (max-width: 991px) {
+    .header-location {
+        .header-location-text {
+            h2 {
+                font-size: 36px;
+            }
+            p {
+                font-size: 20px;
+            }
+        }
+    }
+    .header-doctor {
+        .header-doctor-text {
+            h2 {
+                font-size: 24px;
+            }
+            p {
+                font-size: 18px;
+                padding-top: 30px;
+            }
+        }
+    }
+    #location-page {
+        #reading-part {
+            .fake2 {
+                background: rgba(21,93,197,0.8);
+            }
+        }
+        #multitext-part {
+            .fake1, .fake2 {
+                display: none;
+            }
+            .container {
+                width: 100%;
+                .row {
+                    &.flex-row {
+                        display: block;
+                    }
+                    .col-md-7 {
+                        width: 100%;
+                    }
+                    .col-md-5 {
+                        width: 100%;
+                    }
+                    .left-text, .right-text {
+                        padding-left: 30px;
+                        padding-right: 30px;
+                    }
+                }
+            }
+        }
+        #footer-part {
+            padding: 100px 0;
+            h3, p, h4 {
+                padding: 0;
+            }
+        }
+    }
+
+    #doctor-page {
+        #patient-part {
+            padding-top: 30px;
+            .flex-row {
+                display: block;
+            }  
+            img {
+                margin: 0 auto;
+            } 
+            .row.pb-50 {
+                padding-bottom: 30px !important;
+            }
+        }
+        #journal-part {
+            padding: 30px 0;
+            .flex-row {
+                display: block;
+            }
+        }
+    }
+}
+
+@media all and (max-width: 767px) {
+    .header-location {
+        .header-location-text {
+            padding: 50px 0;
+            h2 {
+                font-size: 32px;
+            }
+            p {
+                font-size: 16px;
+            }
+        }
+    }
+    .header-doctor {
+        .flex-row {
+            display: block;
+        }
+        .doctor-hero-image {
+            width: 300px;
+            height: 300px;
+            border-radius: 300px;
+            overflow: hidden;
+            margin: 0 auto;
+        }
+        .header-doctor-text {
+            h2 {
+                padding-top: 30px;
+            }
+            p {
+                padding-bottom: 30px;
+            }
+        }
+    }
+    #location-page {
+        #intro-part {
+            padding: 30px 0;
+            p {
+                padding: 0 30px;
+            }
+        }
+        #reading-part {
+            #reading-text {
+                padding: 30px;
+            }
+        }
+    }
+    #doctor-page {
+        #doctor-footer {
+            .flex-row {
+                display: block;
+                .fake1, .fake2 {
+                    display: none;
+                }
+            }
+            .container {
+                width: 100%;
+            }
+            #doctor-footer-text {
+                width: 100%;
+                float: none;
+            }
+        }
+    }
+}

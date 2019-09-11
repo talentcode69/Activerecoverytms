@@ -1,0 +1,270 @@
+// FRONT PAGE FORM
+
+.front-page-form {
+	padding: 15px;
+	background-color: #1371db;
+	border-radius: 10px;
+	box-shadow: 0px 0px 19px grey;
+  max-width: 350px;
+  margin: auto;
+}
+
+.front-page-form-heading {
+	color: white;
+	margin-top: 0;
+	text-align: center;
+}
+
+.front-page-form-button {
+  font-size: 1.25rem !important;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+
+  height: 50px;
+  width: 100%;
+
+  border-radius: 50px !important;
+  background: -webkit-linear-gradient(#f1b54e,#cc791c)!important;
+  border: 3px solid #f1b54e !important;
+  font-weight: 700 !important;
+}
+
+.front-page-form-subtext {
+	color: white;
+	text-align: center;
+	font-size: 14px !important;
+	padding-top: 15px;
+}
+
+.front-page-form-margin-bottom {
+	margin-bottom: 0;
+}
+
+.front-page-form-textarea {
+	display: none !important;
+}
+
+
+// FOOTER PROFESSIONAL FORM
+
+.wrapper-footer-professional-form {
+  text-align: center;
+}
+
+.footer-professional-form {
+	display: inline-flex;
+	justify-content: center;
+	width: 100%;
+
+	background: #1371db;
+	color: white;
+
+	border-radius: 15px;
+  margin-top: 50px !important;
+	margin-bottom: 50px !important;
+}
+
+.footer-professional-form-element {
+	width: 33%;
+	padding: 15px;
+}
+
+.footer-professional-form-input-spacing {
+	margin: 15px 0;
+}
+
+.footer-professional-form-input-text {
+	color: white;
+	font-size: 14px;
+	padding-right: 25px;
+}
+
+.footer-professional-form-radio-flex {
+	display: inline-flex;
+}
+
+.footer-professional-form-button {
+  color: #fff;
+  border: 3px solid #f1b54e;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px 24px;
+  border-radius: 24px;
+  text-transform: uppercase;
+  font-family: 'futura_bdcn_btbold';
+  letter-spacing: 1px;
+
+  background-color: #f1b54e !important;
+  background: -webkit-linear-gradient(#f1b54e,#cc791c)!important;
+  background: #f1b54e;
+}
+
+.footer-professional-form-heading {
+  font-size: 5rem;
+  text-align: center;
+  line-height: 1.3 !important;
+  color: white;
+}
+
+.footer-professional-form-center-button {
+  text-align: center;
+}
+
+.footer-professional-form-textarea-display {
+  display: none !important;
+}
+
+.footer-professional-form-textarea {
+  height: 34px !important;
+}
+
+.footer-professional-button-margin-top {
+  margin-top: 15px;
+}
+
+@media screen and (max-width: 1000px){
+  .footer-professional-form {
+    flex-flow: column;
+    max-width: 500px;
+  }
+  .footer-professional-form-element {
+    width: 100%;
+  }
+  #footer-professional-form-select {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+  }
+  .footer-professional-form-textarea {
+    height: 75px !important;
+  }
+  .footer-professional-form-remove-top-spacing-mobile {
+    margin-top: 0px !important;
+    padding-top: 0px !important;
+  }
+  .footer-professional-form-remove-spacing-mobile {
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
+  }
+}
+
+.footer-professional-form-submission-success,
+.footer-professional-form-submission-error {
+  margin-top: 5px;
+}
+
+
+// FOOTER NEWSLETTER FORM
+
+.social-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+}
+
+.social-display a {
+  color: white;
+}
+
+.flex-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-width-set {
+  width: 50%;
+}
+
+.footer-newsletter-form-submission {
+  color: #fff;
+  border: 3px solid #f1b54e;
+  text-decoration: none;
+  font-size: 18px;
+
+  padding: 10px 24px;
+  margin-left: 25px;
+
+  border-radius: 24px;
+
+  text-transform: uppercase;
+  font-family: 'futura_bdcn_btbold';
+  letter-spacing: 1px;
+
+  background-color: #f1b54e !important;
+  background: -webkit-linear-gradient(#f1b54e,#cc791c)!important;
+  background: #f1b54e;
+}
+
+@media screen and (max-width: 990px){
+  .footer-newsletter-form-submission {
+    margin-left: 0px;
+  }
+
+  .form-width-set {
+    width: 100%;
+  }
+
+  .flex-display {
+    flex-flow: column;
+  }
+
+  .footer-newsletter-set-margin {
+    margin: 25px 0;
+  }
+
+  .footer-newsletter-email-input-width {
+    min-width: 300px;
+  }
+}
+
+
+// QUIZLET
+
+.quizlet-form-button {
+  color: #fff;
+  border: 3px solid #f1b54e;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px 24px;
+  border-radius: 24px;
+  text-transform: uppercase;
+  font-family: 'futura_bdcn_btbold';
+  letter-spacing: 1px;
+
+  background-color: #f1b54e !important;
+  background: -webkit-linear-gradient(#f1b54e,#cc791c)!important;
+  background: #f1b54e;
+
+  float: none;
+}
+
+
+// GENERIC
+
+
+.error {
+  color: white;
+  display: none;
+  text-align: center;
+  font-size: 10px;
+  color: white;
+  width: 100%;
+  background-color: red;
+}
+
+.success {
+  color: white;
+  display: none;
+  text-align: center;
+  font-size: 10px;
+  width: 100%;
+  background-color: green;
+}
+
+.disabled-button-coloring {
+  opacity: 1!important;
+  cursor: not-allowed !important;
+}
